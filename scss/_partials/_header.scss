@@ -1,0 +1,14 @@
+@mixin hero {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    padding: 2em;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #ebebeb;
+    transform: translate(-50%, -50%);
+}
+
+.default {
+    @include hero;
+}
